@@ -7,8 +7,8 @@ SM4算法是一种分组加密算法，其输入需要二进制流，并不能�
 **解密：** 先将加密后JPG格式的图片进行格式转换成RGBA格式，再使用sm4算法进行解密，最后将解密后的RGBA图片转化为JPG  
 
 ## 具体实现
-### 1.在Python中对图片格式转化  
-JPG转RGBA  
+### 1.图片格式转化  
+使用PLI的Image包JPG转RGBA  
 ```
 from PIL import Image
  
