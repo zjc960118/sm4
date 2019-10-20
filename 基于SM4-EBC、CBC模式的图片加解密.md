@@ -8,7 +8,7 @@ SM4算法是一种分组加密算法，其输入需要二进制流，并不能�
 
 ## 具体实现
 ### 1.图片格式转化  
-使用PIL的Image包JPG转RGBA  
+使用Python的PIL包 实现JPG转RGBA  
 ```
 from PIL import Image
  
