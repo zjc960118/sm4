@@ -21,10 +21,9 @@ height1 = pku.size[1]
 print(width1)
 print(height1)
 ```
-RGBA转JPG
+使用 ImageMagick 将RGBA转JPG
 ```
-pku_rgb = pku_rgba.convert('RGB')
-pku_rgb.save('pku_rgb.jpg')
+convert -size 500*738 -depth 8 pku_ecb.rgba pku_ecb.jpg
 ```
 
 ### 2.图片加密   
