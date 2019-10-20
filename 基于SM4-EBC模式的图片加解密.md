@@ -1,7 +1,6 @@
 # 基于SM4-ECB、CBC模式的图片加解密
 ## 实现思路
-SM4算法是一种分组加密算法，其输入需要二进制流，并不能直接对图片进行加密处理  
-因而需要对图片进行预处理，“RGBA”格式图片为32位彩色图像，它的每个像素用32个bit表示，其中24bit表示红色、绿色和蓝色三个通道，另外8bit表示alpha通道，即透明通道。转化后RGBA的图片可以直接用SM4算法进行加解密  
+SM4算法是一种分组加密算法，其输入需要二进制流，并不能直接对图片进行加密处理.因而需要对图片进行预处理，“RGBA”格式图片为32位彩色图像，它的每个像素用32个bit表示，其中24bit表示红色、绿色和蓝色三个通道，另外8bit表示alpha通道，即透明通道。转化后RGBA的图片可以直接用SM4算法进行加解密  
   
 具体思路如下：  
 **加密：** 先将JPG格式的图片进行格式转换成RGBA格式，再使用sm4算法进行加密，最后将加密后的RGBA图片转化为JPG  
@@ -63,8 +62,7 @@ pku_rgb.save('pku_rgb.jpg')
 ![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_ecb.jpg)   
 解密     
 ![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8B%E5%8D%883.21.43.png)    
- 
-解密结果：  
+将RGBA格式转换为JPG后，解密结果：    
 ![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_ecb_dec.jpg)    
 
 **3.2 基于CBC模式的加解密**   
@@ -77,8 +75,7 @@ pku_rgb.save('pku_rgb.jpg')
 
 解密  
 ![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8B%E5%8D%883.22.56.png)    
-
-解密结果：    
+将RGBA格式转换为JPG后，解密结果：     
 ![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_cbc_dec.jpg)  
 
 
