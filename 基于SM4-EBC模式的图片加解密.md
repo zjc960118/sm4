@@ -57,7 +57,7 @@ pku_rgb.save('pku_rgb.jpg')
  加密  
 ![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8A%E5%8D%882.32.40.png)    
 
-加密结果   
+执行RGBA转换JPG后，加密结果：    
 
 ![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_ecb.jpg)   
 解密     
@@ -69,7 +69,7 @@ pku_rgb.save('pku_rgb.jpg')
 加密    
 ![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8B%E5%8D%883.22.46.png)   
 
-加密结果    
+执行RGBA转换JPG后，加密结果：     
 
 ![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_cbc.jpg)   
 
