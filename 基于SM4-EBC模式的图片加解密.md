@@ -30,21 +30,35 @@ pku_rgb.save('pku_rgb.jpg')
 
 ### 2.图片加密 
 原图 
-![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku.jpg)
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku.jpg)  
 
 **2.1 安装gmssl**  
+  
+从 https://github.com/guanzhi/GmSSL 中下载并安装gmssl 
 
 **2.2 基于EBC模式的加密**  
-加密结果    
-**2.3 基于CBC模式的加密**   
-加密结果   
+![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8A%E5%8D%882.32.40.png)  
+加密结果 
+
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_ecb.jpg) 
+
+**2.3 基于CBC模式的加密** 
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_cbc.jpg) 
+加密结果
+
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku.jpg) 
 
 ### 3.图片解密  
-**3.1 基于EBC模式的加密**  
-解密结果    
-**3.2 基于CBC模式的加密**   
-解密结果  
+**3.1 基于EBC模式的解密**  
+![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8B%E5%8D%883.21.43.png)  
+解密结果：
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_ecb_dec.jpg)
+ 
+**3.2 基于CBC模式的解密**   
+![image](https://github.com/zjc960118/sm4/blob/master/image/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-10-20%20%E4%B8%8B%E5%8D%883.22.56.png)  
 
+解密结果：
+![image](https://github.com/zjc960118/sm4/blob/master/image/sm4_pku/pku_cbc_dec.jpg)
 
 
 
