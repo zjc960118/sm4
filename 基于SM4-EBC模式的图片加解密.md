@@ -35,18 +35,13 @@ pku_rgb.save('pku_rgb.jpg')
 
 **2.2 基于EBC模式的加解密**  
 
-加密 
-` gmssl enc -sms4-ecb -e -in pku.rgba -out pku_ecb.rgba `
+加密  ` gmssl enc -sms4-ecb -e -in pku.rgba -out pku_ecb.rgba `  
 
-解密  
-` gmssl sms4-ebc -d -in pku_ecb.rgba -out pku_ecb_dec.rgba`
+解密  ` gmssl sms4-ebc -d -in pku_ecb.rgba -out pku_ecb_dec.rgba`  
 **2.3 基于CBC模式的加密**  
-
-
-加密 
-` gmssl enc -sms4-cbc -e -in pku.rgba -out pku_cbc.rgba `
-解密 
-`  gmssl sms4-cbc -d -in pku_cbc.rgba -out pku_cbc_dec.rgba`
+  
+加密 ` gmssl enc -sms4-cbc -e -in pku.rgba -out pku_cbc.rgba `  
+解密  `  gmssl sms4-cbc -d -in pku_cbc.rgba -out pku_cbc_dec.rgba`  
 
 
 
